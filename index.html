@@ -1,0 +1,643 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta property="og:title" content="Predio en Col. Miraval, Cuernavaca">
+<meta property="og:description" content="1,280 m², 6 desniveles, alberca y 800 m² construidos, a 5 minutos del centro. Precio por debajo del valor del terreno.">
+<meta property="og:image" content="img/alberca.jpg">
+<style>:root{padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}body{margin:0}img{max-width:100%}[hidden]{display:none!important}</style>
+<title>Predio Miraval Cuernavaca</title>
+<meta name="description" content="Predio de 1,280 m² con 6 desniveles, alberca y 800 m² construidos en Col. Miraval, a 5 minutos del centro de Cuernavaca.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400;0,6..96,500;1,6..96,400&family=Familjen+Grotesk:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap">
+<style>
+/* Single deliberate look: jungle green + whitewash sections, brass accent. */
+:root{
+  color-scheme:dark;
+  --jungle:#0F1A14; --jungle-2:#15231B; --jungle-3:#1D2E24;
+  --bone:#EEEDE4; --wash:#F3F2EB; --ink:#141A16;
+  --muted-d:#C6CEC4; --muted-l:#465048;
+  --line-d:rgba(238,237,228,.2); --line-l:#D8D9CE;
+  --bug:#C9A25B; --bug-hi:#E0BE7E; --bug-dark:#7E5F22;
+  --display:"Bodoni Moda", Didot, "Times New Roman", serif;
+  --body:"Familjen Grotesk", -apple-system, "Segoe UI", Roboto, sans-serif;
+  --mono:"JetBrains Mono", ui-monospace, Menlo, Consolas, monospace;
+  --wrap:1240px;
+  --gut:clamp(16px,4vw,48px);
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{background:var(--jungle);color:var(--bone);font-family:var(--body);font-size:17px;line-height:1.6;-webkit-font-smoothing:antialiased;overflow-x:hidden}
+.wrap{max-width:var(--wrap);margin-inline:auto;padding-inline:var(--gut)}
+h1,h2,h3{font-family:var(--display);font-weight:400;line-height:1.02;text-wrap:balance;margin:0;letter-spacing:-.01em}
+h2{font-size:clamp(2.3rem,5.2vw,4.2rem)}
+h2 em,h1 em{font-style:italic;color:var(--bug-hi)}
+p{margin:0}
+a{color:inherit}
+img{display:block}
+.eyebrow{font-family:var(--mono);font-size:.76rem;font-weight:500;letter-spacing:.18em;text-transform:uppercase;color:var(--muted-d);display:inline-flex;align-items:center;gap:10px}
+.eyebrow::before{content:"";width:28px;height:1px;background:currentColor;opacity:.7}
+section{padding-block:clamp(72px,10vw,140px)}
+.light{background:var(--wash);color:var(--ink)}
+.light .eyebrow{color:var(--muted-l)}
+.light h2 em{color:var(--bug-dark)}
+.sec-head{display:grid;gap:18px;max-width:780px;margin-bottom:clamp(40px,5vw,64px)}
+.sec-head p{color:var(--muted-d);max-width:58ch;font-size:1.08rem}
+.light .sec-head p{color:var(--muted-l)}
+
+/* Buttons */
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:10px;font:600 .98rem/1 var(--body);padding:17px 26px;border-radius:999px;text-decoration:none;border:1px solid transparent;cursor:pointer;transition:transform .2s ease, background .2s ease, box-shadow .2s ease;white-space:nowrap}
+.btn:hover{transform:translateY(-2px)}
+.btn-primary{background:var(--bug);color:#141A16;box-shadow:0 10px 30px -10px rgba(201,162,91,.55)}
+.btn-primary:hover{background:#D6B06C;box-shadow:0 16px 36px -10px rgba(201,162,91,.7)}
+.btn-ghost{border-color:rgba(238,237,228,.45);color:var(--bone);background:rgba(15,26,20,.25);backdrop-filter:blur(6px)}
+.btn-ghost:hover{border-color:var(--bone)}
+.light .btn-ghost{border-color:var(--ink);color:var(--ink);background:transparent}
+.btn svg{width:18px;height:18px;flex:none}
+:focus-visible{outline:2px solid var(--bug-hi);outline-offset:3px}
+
+/* Nav */
+.nav{position:fixed;top:0;left:0;right:0;z-index:40;padding-top:env(safe-area-inset-top,0px);transition:background .3s ease, border-color .3s ease;border-bottom:1px solid transparent}
+.nav.scrolled{background:rgba(15,26,20,.82);backdrop-filter:blur(14px);-webkit-backdrop-filter:blur(14px);border-color:var(--line-d)}
+.nav .wrap{display:flex;align-items:center;justify-content:space-between;gap:20px;height:72px}
+.brand{font-family:var(--display);font-size:1.45rem;text-decoration:none;display:flex;align-items:baseline;gap:10px}
+.brand small{font-family:var(--mono);font-size:.62rem;letter-spacing:.2em;text-transform:uppercase;color:var(--muted-d)}
+.nav-links{display:flex;gap:28px;font-size:.92rem}
+.nav-links a{text-decoration:none;opacity:.8}
+.nav-links a:hover{opacity:1}
+.nav .btn{padding:12px 18px;font-size:.88rem}
+
+/* Hero */
+.hero{position:relative;min-height:min(920px,100svh);display:flex;align-items:flex-end;overflow:hidden;padding:0}
+.hero-bg{position:absolute;inset:0}
+.hero-bg img{width:100%;height:100%;object-fit:cover;object-position:center 60%;transform:scale(1.08);animation:kb 22s ease-out forwards}
+@keyframes kb{to{transform:scale(1)}}
+.hero-bg::after{content:"";position:absolute;inset:0;background:
+  linear-gradient(180deg,rgba(15,26,20,.6) 0%,rgba(15,26,20,.25) 25%,rgba(15,26,20,.5) 50%,rgba(15,26,20,.95) 80%,var(--jungle) 100%),
+  linear-gradient(90deg,rgba(15,26,20,.8) 0%,rgba(15,26,20,.35) 55%,rgba(15,26,20,0) 85%)}
+.hero-inner{position:relative;width:100%;padding-block:140px 0}
+.hero .badge{display:inline-flex;align-items:center;gap:10px;background:rgba(15,26,20,.55);border:1px solid rgba(224,190,126,.7);color:#F3E3BF;padding:8px 14px;border-radius:999px;font-size:.84rem;font-weight:600;backdrop-filter:blur(6px)}
+.badge .dot{width:8px;height:8px;border-radius:50%;background:var(--bug-hi);box-shadow:0 0 0 0 rgba(224,190,126,.7);animation:pulse 2s infinite}
+@keyframes pulse{70%{box-shadow:0 0 0 10px rgba(224,190,126,0)}100%{box-shadow:0 0 0 0 rgba(224,190,126,0)}}
+.hero h1,.hero .lede{text-shadow:0 2px 18px rgba(0,0,0,.55)}
+.hero h1{font-size:clamp(3.1rem,9.2vw,8.4rem);line-height:.95;margin-top:22px;max-width:13ch}
+.hero .lede{font-size:clamp(1.05rem,1.6vw,1.25rem);max-width:50ch;color:#F0F2EC;margin-top:26px}
+.hero-actions{display:flex;flex-wrap:wrap;gap:12px;margin-top:34px}
+.hero-stats{margin-top:clamp(48px,7vw,84px);display:grid;grid-template-columns:repeat(5,1fr);border-top:1px solid var(--line-d)}
+.hero-stats div{padding:22px 18px 30px 0;display:grid;gap:6px}
+.hero-stats div+div{padding-left:20px;border-left:1px solid var(--line-d)}
+.hero-stats dd{margin:0;font-family:var(--display);font-size:clamp(2rem,3.6vw,3.2rem);line-height:1;font-variant-numeric:lining-nums tabular-nums}
+.hero-stats dd small{font-family:var(--body);font-size:.95rem;color:var(--muted-d);margin-left:4px}
+.hero-stats dt{font-family:var(--mono);font-size:.68rem;letter-spacing:.14em;text-transform:uppercase;color:var(--muted-d);order:2}
+.hero-stats dl,.hero-stats{margin-bottom:0}
+
+/* Marquee */
+.marquee{border-block:1px solid var(--line-d);overflow:hidden;padding-block:18px;background:var(--jungle-2)}
+.marquee-track{display:flex;gap:48px;width:max-content;animation:scroll 42s linear infinite}
+.marquee span{font-family:var(--display);font-style:italic;font-size:clamp(1.3rem,2.4vw,1.9rem);white-space:nowrap;color:var(--bone);display:flex;align-items:center;gap:48px}
+.marquee span::after{content:"✦";font-style:normal;font-size:.8rem;color:var(--bug-hi)}
+@keyframes scroll{to{transform:translateX(-50%)}}
+
+/* Intro */
+.intro-grid{display:grid;grid-template-columns:1fr 1fr;gap:clamp(40px,6vw,96px);align-items:center}
+.intro-photos{position:relative;aspect-ratio:4/5;max-width:100%}
+.intro-photos .p1{position:absolute;inset:0 18% 14% 0;border-radius:4px;overflow:hidden}
+.intro-photos .p2{position:absolute;right:0;bottom:0;width:52%;aspect-ratio:4/3;border-radius:4px;overflow:hidden;border:8px solid var(--wash);box-shadow:0 30px 60px -20px rgba(20,26,22,.45)}
+.intro-photos img{width:100%;height:100%;object-fit:cover}
+.intro-photos .tag{position:absolute;left:16px;top:16px;background:var(--wash);color:var(--ink);font-family:var(--mono);font-size:.7rem;letter-spacing:.12em;text-transform:uppercase;padding:7px 11px;border-radius:3px}
+.quote{font-family:var(--display);font-style:italic;font-size:clamp(1.4rem,2.3vw,1.85rem);line-height:1.3;border-left:3px solid var(--bug);padding-left:22px;margin-top:30px;color:var(--ink)}
+.checks{list-style:none;padding:0;margin:30px 0 0;display:grid;gap:12px}
+.checks li{display:grid;grid-template-columns:24px 1fr;gap:12px;align-items:start}
+.checks li::before{content:"";width:18px;height:18px;margin-top:4px;border-radius:50%;background:var(--bug-dark) url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='white' stroke-width='3.5' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M5 12l5 5L20 7'/%3E%3C/svg%3E") center/12px no-repeat}
+
+/* Levels explorer */
+.levels{background:var(--jungle)}
+.explorer{display:grid;grid-template-columns:1.1fr 1fr;gap:clamp(28px,4vw,56px);align-items:stretch}
+.explorer-left{display:grid;gap:26px;align-content:start}
+.section-svg{width:100%;height:auto;display:block;overflow:visible}
+.section-svg .lvl{cursor:pointer}
+.section-svg .lvl rect{fill:var(--jungle-3);stroke:rgba(238,237,228,.28);stroke-width:1;transition:fill .3s ease}
+.section-svg .lvl:hover rect{fill:#284034}
+.section-svg .lvl.active rect{fill:var(--bug)}
+.section-svg .lvl.active text{fill:#141A16;font-weight:500}
+.section-svg .lvl text{font-family:var(--mono);font-size:13px;fill:var(--bone);pointer-events:none}
+.section-svg .lvl:focus-visible{outline:none}
+.section-svg .lvl:focus-visible rect{stroke:var(--bug-hi);stroke-width:2.5}
+.section-svg .ref{font-family:var(--mono);font-size:11px;fill:var(--muted-d);letter-spacing:.1em}
+.level-tabs{display:grid;grid-template-columns:repeat(6,1fr);gap:6px}
+.level-tabs button{font:500 .8rem var(--mono);letter-spacing:.06em;background:transparent;color:var(--muted-d);border:1px solid var(--line-d);border-radius:999px;padding:10px 0;cursor:pointer;transition:all .2s ease}
+.level-tabs button[aria-selected="true"]{background:var(--bone);color:var(--ink);border-color:var(--bone)}
+.level-card{position:relative;border-radius:6px;overflow:hidden;min-height:460px;background:var(--jungle-2);display:flex;align-items:flex-end}
+.level-card img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;transition:opacity .45s ease, transform 1.2s ease}
+.level-card img.fading{opacity:0;transform:scale(1.04)}
+.level-card::after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(15,26,20,.1) 25%,rgba(15,26,20,.96) 100%)}
+.level-info{position:relative;z-index:1;padding:28px;display:grid;gap:10px}
+.level-info .n{font-family:var(--mono);font-size:.78rem;letter-spacing:.16em;color:var(--bug-hi)}
+.level-info h3{font-size:clamp(1.8rem,3vw,2.5rem)}
+.level-info p{color:#EEF1EB;max-width:44ch}
+.note{font-size:.84rem;color:var(--muted-d)}
+.light .note{color:var(--muted-l)}
+
+/* Gallery */
+.gallery{display:grid;grid-template-columns:repeat(12,1fr);grid-auto-rows:clamp(150px,17vw,230px);gap:12px}
+.gallery button{all:unset;cursor:zoom-in;position:relative;overflow:hidden;border-radius:4px;background:#ccc}
+.gallery button:focus-visible{outline:2px solid var(--bug-dark);outline-offset:3px}
+.gallery img{width:100%;height:100%;object-fit:cover;transition:transform .9s cubic-bezier(.2,.7,.2,1)}
+.gallery button:hover img{transform:scale(1.05)}
+.gallery .cap{position:absolute;left:0;right:0;bottom:0;padding:40px 16px 14px;background:linear-gradient(180deg,transparent,rgba(10,16,12,.9));color:#fff;text-shadow:0 1px 6px rgba(0,0,0,.6);font-size:.88rem;display:flex;justify-content:space-between;gap:10px}
+.gallery .cap b{font-family:var(--mono);font-weight:400;font-size:.7rem;letter-spacing:.12em;opacity:.8}
+.g1{grid-column:span 7;grid-row:span 2}
+.g2{grid-column:span 5;grid-row:span 2}
+.g3{grid-column:span 5;grid-row:span 2}
+.g4{grid-column:span 7;grid-row:span 2}
+
+/* Lightbox */
+.lb{position:fixed;inset:0;z-index:60;background:rgba(8,12,10,.94);display:grid;grid-template-rows:1fr auto;padding:calc(16px + env(safe-area-inset-top,0px)) 16px calc(16px + env(safe-area-inset-bottom,0px))}
+.lb img{max-width:100%;max-height:100%;margin:auto;object-fit:contain;border-radius:3px}
+.lb-stage{display:flex;min-height:0}
+.lb-bar{display:flex;align-items:center;justify-content:space-between;gap:12px;padding-top:14px;color:var(--bone)}
+.lb-bar p{font-size:.95rem}
+.lb-btns{display:flex;gap:8px}
+.lb-btns button{font:500 .9rem var(--body);background:transparent;color:var(--bone);border:1px solid var(--line-d);border-radius:999px;padding:10px 16px;cursor:pointer}
+
+/* Ficha */
+.ficha-grid{display:grid;grid-template-columns:1fr 1.25fr;gap:clamp(40px,6vw,96px);align-items:start}
+.ficha{margin:0;border-top:1px solid var(--line-l)}
+.ficha div{display:grid;grid-template-columns:minmax(120px,38%) 1fr;gap:16px;padding:17px 0;border-bottom:1px solid var(--line-l)}
+.ficha dt{font-family:var(--mono);font-size:.74rem;letter-spacing:.12em;text-transform:uppercase;color:var(--muted-l);padding-top:3px}
+.ficha dd{margin:0;font-size:1.02rem}
+.ficha dd strong{font-weight:600}
+.doc-tabs{display:flex;gap:6px;flex-wrap:wrap;margin-bottom:14px}
+.doc-tabs button{font:500 .85rem var(--body);background:transparent;color:var(--ink);border:1px solid var(--line-l);border-radius:999px;padding:9px 16px;cursor:pointer}
+.doc-tabs button[aria-selected="true"]{background:var(--ink);color:var(--wash);border-color:var(--ink)}
+.doc-frame{background:#fff;border:1px solid var(--line-l);border-radius:4px;aspect-ratio:4/3;max-width:100%;overflow:hidden;cursor:zoom-in}
+.doc-frame img{width:100%;height:100%;object-fit:contain}
+.doc-frame.cover img{object-fit:cover}
+.doc-cap{display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap;margin-top:12px;font-size:.9rem;color:var(--muted-l)}
+
+/* Uses */
+.uses{display:grid;grid-template-columns:repeat(3,1fr);gap:1px;background:var(--line-d);border:1px solid var(--line-d)}
+.use{background:var(--jungle);padding:clamp(24px,3vw,38px);display:grid;gap:12px;align-content:start;transition:background .3s ease}
+.use:hover{background:var(--jungle-2)}
+.use .ix{font-family:var(--mono);font-size:.72rem;letter-spacing:.14em;color:var(--bug-hi);text-transform:uppercase}
+.use h3{font-size:clamp(1.55rem,2.3vw,2rem)}
+.use p{color:var(--muted-d);font-size:1rem}
+
+/* Location */
+.loc{display:grid;grid-template-columns:1fr 1.1fr;gap:clamp(40px,6vw,88px);align-items:center}
+.dist{list-style:none;padding:0;margin:0;border-top:1px solid var(--line-l)}
+.dist li{display:flex;justify-content:space-between;align-items:baseline;gap:16px;padding:18px 0;border-bottom:1px solid var(--line-l)}
+.dist li b{font-family:var(--display);font-weight:400;font-size:1.6rem;line-height:1}
+.dist li span:first-child{font-size:1.02rem}
+.sat{position:relative;border-radius:4px;overflow:hidden;box-shadow:0 40px 80px -30px rgba(20,26,22,.5)}
+.sat img{width:100%}
+.sat .pin{position:absolute;left:16px;top:16px;background:var(--ink);color:var(--wash);font-family:var(--mono);font-size:.7rem;letter-spacing:.12em;text-transform:uppercase;padding:8px 12px;border-radius:3px}
+
+/* Contact */
+.contact{position:relative;overflow:hidden;padding-block:clamp(88px,12vw,160px)}
+.contact-bg{position:absolute;inset:0}
+.contact-bg img{width:100%;height:100%;object-fit:cover;filter:saturate(.8)}
+.contact-bg::after{content:"";position:absolute;inset:0;background:linear-gradient(100deg,rgba(15,26,20,.97) 0%,rgba(15,26,20,.92) 50%,rgba(15,26,20,.78) 100%)}
+.contact-grid{position:relative;display:grid;grid-template-columns:1.1fr 1fr;gap:clamp(40px,6vw,80px);align-items:center}
+.contact h2{font-size:clamp(2.6rem,6vw,5rem)}
+.contact .lede{color:#EEF1EB;max-width:46ch;margin-top:22px;font-size:1.1rem}
+.phones{display:grid;gap:0;margin-top:36px;border-top:1px solid var(--line-d)}
+.phone{display:flex;align-items:center;justify-content:space-between;gap:12px;flex-wrap:wrap;padding:16px 0;border-bottom:1px solid var(--line-d)}
+.phone .lbl{font-family:var(--mono);font-size:.7rem;letter-spacing:.14em;text-transform:uppercase;color:var(--muted-d);display:block}
+.phone .num{font-family:var(--display);font-size:1.6rem;user-select:all;font-variant-numeric:lining-nums}
+.copy{font:500 .82rem var(--body);background:transparent;border:1px solid var(--line-d);color:var(--bone);border-radius:999px;padding:8px 15px;cursor:pointer}
+.copy:hover{border-color:var(--bone)}
+form{background:var(--wash);color:var(--ink);border-radius:6px;padding:clamp(24px,3vw,38px);display:grid;gap:16px;box-shadow:0 40px 90px -30px rgba(0,0,0,.6)}
+form h3{font-size:2rem}
+form .sub{color:var(--muted-l);font-size:.95rem;margin-top:-8px}
+label{display:grid;gap:7px;font-size:.84rem;font-weight:600}
+input,select{font:400 1rem var(--body);padding:14px 15px;border:1px solid var(--line-l);border-radius:4px;background:#fff;color:var(--ink);width:100%;color-scheme:light}
+input:focus,select:focus{outline:none;border-color:var(--bug-dark);box-shadow:0 0 0 3px rgba(126,95,34,.2)}
+.form-note{font-size:.8rem;color:var(--muted-l);text-align:center}
+
+footer{background:var(--jungle);border-top:1px solid var(--line-d);padding-block:30px 96px;font-size:.84rem;color:var(--muted-d)}
+footer .wrap{display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap}
+
+.float-wa{display:none}
+
+/* Scroll reveal: content is visible at rest; this only adds a gentle lift where supported. */
+@supports (animation-timeline: view()){
+  .rv{animation:rise linear both;animation-timeline:view();animation-range:entry 0% entry 55%}
+  @keyframes rise{from{transform:translateY(36px);opacity:.5}to{transform:none;opacity:1}}
+}
+
+@media (max-width:980px){
+  .nav-links{display:none}
+  .hero-stats{grid-template-columns:repeat(3,1fr)}
+  .hero-stats div:nth-child(4){padding-left:0;border-left:0}
+  .hero-stats div:nth-child(n+4){border-top:1px solid var(--line-d)}
+  .intro-grid,.explorer,.ficha-grid,.loc,.contact-grid{grid-template-columns:1fr}
+  .intro-photos{max-width:560px}
+  .level-card{min-height:380px}
+  .uses{grid-template-columns:1fr 1fr}
+}
+@media (max-width:640px){
+  body{font-size:16px}
+  .nav .btn span{display:none}
+  .nav .btn{padding:11px}
+  .hero{min-height:0}
+  .hero-inner{padding-top:120px}
+  .hero-actions .btn{flex:1 1 100%}
+  .hero-stats{grid-template-columns:1fr 1fr}
+  .hero-stats div{padding-left:0!important;border-left:0!important;border-top:1px solid var(--line-d);padding-block:16px}
+  .hero-stats div:nth-child(2n){padding-left:16px!important;border-left:1px solid var(--line-d)!important}
+  .hero-stats div:first-child,.hero-stats div:nth-child(2){border-top:0}
+  .hero-stats div:last-child{grid-column:span 2;padding-left:0!important;border-left:0!important}
+  .level-tabs{grid-template-columns:repeat(3,1fr)}
+  .gallery{grid-template-columns:1fr;grid-auto-rows:240px}
+  .g1,.g2,.g3,.g4{grid-column:span 1;grid-row:span 1}
+  .uses{grid-template-columns:1fr}
+  .ficha div{grid-template-columns:1fr;gap:4px}
+  .float-wa{display:flex;position:fixed;left:16px;right:16px;bottom:calc(14px + env(safe-area-inset-bottom,0px));z-index:30}
+}
+@media (prefers-reduced-motion:reduce){
+  *,*::before,*::after{animation:none!important;transition:none!important}
+  html{scroll-behavior:auto}
+  .hero-bg img{transform:none}
+}
+</style>
+</head>
+<body>
+
+
+<nav class="nav" id="nav">
+  <div class="wrap">
+    <a class="brand" href="#top">Miraval <small>Cuernavaca</small></a>
+    <div class="nav-links">
+      <a href="#predio">El predio</a>
+      <a href="#niveles">Niveles</a>
+      <a href="#galeria">Galería</a>
+      <a href="#ficha">Ficha técnica</a>
+      <a href="#ubicacion">Ubicación</a>
+    </div>
+    <a class="btn btn-primary wa-link" href="https://wa.me/527775560211" target="_blank" rel="noopener" aria-label="Escribir por WhatsApp">
+      <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2Zm5.3 14.1c-.2.6-1.3 1.2-1.8 1.2-.5.1-1 .2-3.3-.7-2.8-1.1-4.6-4-4.7-4.2-.1-.2-1.1-1.5-1.1-2.9s.7-2.1 1-2.4c.3-.3.6-.3.8-.3h.6c.2 0 .4 0 .6.5l.9 2.1c.1.2.1.4 0 .6l-.4.6-.4.5c-.1.2-.3.3-.1.6.2.3.8 1.3 1.7 2.1 1.2 1 2.1 1.4 2.4 1.5.3.1.5.1.7-.1l.9-1.1c.2-.3.4-.2.7-.1l2 1c.3.1.5.2.6.3.1.2.1.7-.1 1.3Z"/></svg>
+      <span>Pedir precio</span>
+    </a>
+  </div>
+</nav>
+
+<header class="hero" id="top">
+  <div class="hero-bg"><img src="img/alberca.jpg" alt="Alberca de forma libre rodeada de palmeras, con el bar de techo curvo y la casa en lo alto" fetchpriority="high"></div>
+  <div class="hero-inner">
+    <div class="wrap">
+      <span class="badge"><span class="dot"></span>Precio por debajo del valor del terreno</span>
+      <h1>Un jardín en <em>seis niveles</em>, a cinco minutos del centro.</h1>
+      <p class="lede">Predio de 1,280 m² en la Colonia Miraval de Cuernavaca, con casa de 800 m², alberca, bar y árboles de décadas. Para habitar, remodelar o desarrollar desde cero.</p>
+      <div class="hero-actions">
+        <a class="btn btn-primary wa-link" href="https://wa.me/527775560211" target="_blank" rel="noopener">
+          <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2Zm5.3 14.1c-.2.6-1.3 1.2-1.8 1.2-.5.1-1 .2-3.3-.7-2.8-1.1-4.6-4-4.7-4.2-.1-.2-1.1-1.5-1.1-2.9s.7-2.1 1-2.4c.3-.3.6-.3.8-.3h.6c.2 0 .4 0 .6.5l.9 2.1c.1.2.1.4 0 .6l-.4.6-.4.5c-.1.2-.3.3-.1.6.2.3.8 1.3 1.7 2.1 1.2 1 2.1 1.4 2.4 1.5.3.1.5.1.7-.1l.9-1.1c.2-.3.4-.2.7-.1l2 1c.3.1.5.2.6.3.1.2.1.7-.1 1.3Z"/></svg>
+          Solicitar precio y planos
+        </a>
+        <a class="btn btn-ghost" href="#niveles">Recorrer los 6 niveles</a>
+      </div>
+      <dl class="hero-stats">
+        <div><dt>Terreno</dt><dd>1,280<small>m²</small></dd></div>
+        <div><dt>Construcción</dt><dd>800<small>m²</small></dd></div>
+        <div><dt>Frente</dt><dd>10<small>m</small></dd></div>
+        <div><dt>Desniveles</dt><dd>6</dd></div>
+        <div><dt>Al centro</dt><dd>5<small>min</small></dd></div>
+      </dl>
+    </div>
+  </div>
+</header>
+
+<div class="marquee" aria-hidden="true">
+  <div class="marquee-track">
+    <span>Hotel boutique</span><span>Vivienda vertical</span><span>Clínica y bienestar</span><span>Sede corporativa</span><span>Jardín de eventos</span><span>Residencia familiar</span><span>Uso mixto</span>
+    <span>Hotel boutique</span><span>Vivienda vertical</span><span>Clínica y bienestar</span><span>Sede corporativa</span><span>Jardín de eventos</span><span>Residencia familiar</span><span>Uso mixto</span>
+  </div>
+</div>
+
+<main>
+  <section id="predio" class="light">
+    <div class="wrap intro-grid">
+      <div class="intro-photos rv">
+        <div class="p1"><img src="img/ficus-escalera.jpg" alt="Ficus monumental junto a la escalinata y la casa" loading="lazy"><span class="tag">Ficus · N4</span></div>
+        <div class="p2"><img src="img/alberca-aerea.jpg" alt="La alberca vista desde las terrazas superiores" loading="lazy"></div>
+      </div>
+      <div>
+        <div class="sec-head" style="margin-bottom:0">
+          <span class="eyebrow">El predio</span>
+          <h2>Casi 1,300 m² de terreno a <em>minutos</em> del centro.</h2>
+          <p>En el centro de Cuernavaca casi no quedan terrenos de este tamaño. Este ya tiene resuelta la pendiente con muros de piedra, escalinatas y terrazas, y conserva la vegetación que hace única a la ciudad de la eterna primavera.</p>
+        </div>
+        <p class="quote">Cada nivel puede funcionar como un espacio independiente: habitaciones, consultorios, oficinas o áreas sociales.</p>
+        <ul class="checks">
+          <li>Construcción existente de 800 m², lista para remodelar o demoler</li>
+          <li>Alberca de forma libre y bar con techo curvo de los años sesenta</li>
+          <li>Árboles maduros, palmeras y muros de piedra volcánica</li>
+          <li>Rodeado de plazas comerciales, bancos, universidades y escuelas</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <section id="niveles" class="levels">
+    <div class="wrap">
+      <div class="sec-head">
+        <span class="eyebrow">Recorrido por niveles</span>
+        <h2>De la calle a la alberca, <em>en terrazas</em>.</h2>
+        <p>Toca cada nivel del corte para ver qué hay en él.</p>
+      </div>
+      <div class="explorer">
+        <div class="explorer-left">
+          <svg class="section-svg" viewBox="0 0 640 300" role="group" aria-label="Corte esquemático del predio con seis niveles seleccionables">
+            <text class="ref" x="576" y="32">CALLE</text>
+            <line x1="560" y1="48" x2="636" y2="48" stroke="#EEEDE4" stroke-width="3"/>
+            <text class="ref" x="20" y="228">ALBERCA</text>
+            <g class="lvl" data-i="5" tabindex="0" role="button" aria-label="Nivel 6: alberca y jardín"><rect x="20" y="240" width="160" height="50" rx="2"/><text x="32" y="270">N6</text></g>
+            <g class="lvl" data-i="4" tabindex="0" role="button" aria-label="Nivel 5: bar de alberca"><rect x="182" y="204" width="88" height="86" rx="2"/><text x="194" y="230">N5</text></g>
+            <g class="lvl" data-i="3" tabindex="0" role="button" aria-label="Nivel 4: jardín con ficus"><rect x="272" y="168" width="88" height="122" rx="2"/><text x="284" y="194">N4</text></g>
+            <g class="lvl" data-i="2" tabindex="0" role="button" aria-label="Nivel 3: terrazas"><rect x="362" y="132" width="88" height="158" rx="2"/><text x="374" y="158">N3</text></g>
+            <g class="lvl" data-i="1" tabindex="0" role="button" aria-label="Nivel 2: casa principal"><rect x="452" y="92" width="88" height="198" rx="2"/><text x="464" y="118">N2</text></g>
+            <g class="lvl" data-i="0" tabindex="0" role="button" aria-label="Nivel 1: acceso por calle"><rect x="542" y="52" width="88" height="238" rx="2"/><text x="554" y="78">N1</text></g>
+            <line x1="630" y1="52" x2="20" y2="240" stroke="#EEEDE4" stroke-opacity=".35" stroke-dasharray="3 6"/>
+          </svg>
+          <div class="level-tabs" role="tablist" aria-label="Niveles">
+            <button role="tab" data-i="0">N1</button><button role="tab" data-i="1">N2</button><button role="tab" data-i="2">N3</button>
+            <button role="tab" data-i="3">N4</button><button role="tab" data-i="4">N5</button><button role="tab" data-i="5">N6</button>
+          </div>
+          <p class="note">Corte esquemático sin escala. La distribución exacta se confirma en la visita y en los planos arquitectónicos.</p>
+        </div>
+        <div class="level-card" aria-live="polite">
+          <img id="lv-img" src="img/alberca.jpg" alt="">
+          <div class="level-info">
+            <span class="n" id="lv-n">NIVEL 6 DE 6</span>
+            <h3 id="lv-t">Alberca y jardín</h3>
+            <p id="lv-d">La parte más baja y reservada del predio: alberca de forma libre rodeada de palmeras, con asoleadero y jardín.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="galeria" class="light">
+    <div class="wrap">
+      <div class="sec-head">
+        <span class="eyebrow">Galería</span>
+        <h2>Piedra, palmeras y <em>arquitectura de los sesenta</em>.</h2>
+        <p>Fotografías reales del inmueble. Toca cualquier imagen para ampliarla.</p>
+      </div>
+      <div class="gallery">
+        <button class="g1 rv" data-lb="0"><img src="img/alberca.jpg" alt="Alberca y bar de techo curvo" loading="lazy"><span class="cap">Alberca y bar de techo curvo<b>N5 · N6</b></span></button>
+        <button class="g2 rv" data-lb="1"><img src="img/acceso.jpg" alt="Andador lateral y escalinata" loading="lazy"><span class="cap">Andador y escalinata<b>N1</b></span></button>
+        <button class="g3 rv" data-lb="2"><img src="img/ficus-escalera.jpg" alt="Ficus monumental junto a la casa" loading="lazy"><span class="cap">Ficus monumental<b>N4</b></span></button>
+        <button class="g4 rv" data-lb="3"><img src="img/alberca-aerea.jpg" alt="Vista de la alberca desde las terrazas" loading="lazy"><span class="cap">La alberca desde las terrazas<b>N3</b></span></button>
+      </div>
+    </div>
+  </section>
+
+  <section id="potencial">
+    <div class="wrap">
+      <div class="sec-head">
+        <span class="eyebrow">Potencial de desarrollo</span>
+        <h2>Un terreno, <em>seis</em> proyectos posibles.</h2>
+        <p>La topografía en terrazas permite separar usos por nivel. Puede conservar la construcción actual o demolerla por completo.</p>
+      </div>
+      <div class="uses">
+        <div class="use rv"><span class="ix">Turístico</span><h3>Hotel boutique</h3><p>Habitaciones repartidas en los niveles, con la alberca y el bar existentes como área social.</p></div>
+        <div class="use rv"><span class="ix">Residencial</span><h3>Vivienda vertical o villas</h3><p>Departamentos escalonados con vista al jardín, o casas por nivel con alberca común.</p></div>
+        <div class="use rv"><span class="ix">Salud</span><h3>Clínica o bienestar</h3><p>Consultorios, spa o retiros en un entorno arbolado y silencioso, a minutos del centro.</p></div>
+        <div class="use rv"><span class="ix">Institucional</span><h3>Escuela o sede corporativa</h3><p>Aulas, oficinas y áreas abiertas cerca de universidades y escuelas.</p></div>
+        <div class="use rv"><span class="ix">Eventos</span><h3>Jardín para eventos</h3><p>Terrazas, alberca y bar ya construidos para bodas y reuniones privadas.</p></div>
+        <div class="use rv"><span class="ix">Familiar</span><h3>Residencia de fin de semana</h3><p>Una casa amplia en el clima de Cuernavaca, lista para remodelar a su gusto.</p></div>
+      </div>
+      <p class="note" style="margin-top:20px">El uso de suelo y la densidad permitida deben confirmarse con Desarrollo Urbano de Cuernavaca para cada proyecto.</p>
+    </div>
+  </section>
+
+  <section id="ficha" class="light">
+    <div class="wrap ficha-grid">
+      <div>
+        <div class="sec-head" style="margin-bottom:32px">
+          <span class="eyebrow">Ficha técnica</span>
+          <h2>Los datos, <em>claros</em>.</h2>
+        </div>
+        <dl class="ficha">
+          <div><dt>Ubicación</dt><dd>Col. Miraval, Cuernavaca, Morelos</dd></div>
+          <div><dt>Terreno</dt><dd><strong>1,280 m²</strong> escriturados</dd></div>
+          <div><dt>Medición satelital</dt><dd>13,871 ft² ≈ 1,289 m²</dd></div>
+          <div><dt>Construcción</dt><dd><strong>800 m²</strong> existentes</dd></div>
+          <div><dt>Frente</dt><dd>10 m a calle</dd></div>
+          <div><dt>Topografía</dt><dd>6 desniveles con terrazas y muros de contención</dd></div>
+          <div><dt>Amenidades</dt><dd>Alberca, bar, terrazas, jardín con árboles maduros</dd></div>
+          <div><dt>Documentación</dt><dd>Plano arquitectónico, plano catastral, polígono</dd></div>
+          <div><dt>Precio</dt><dd><strong>Por debajo del valor del terreno.</strong> Solicítelo por WhatsApp.</dd></div>
+        </dl>
+      </div>
+      <div>
+        <div class="doc-tabs" role="tablist" aria-label="Documentos">
+          <button role="tab" data-d="0" aria-selected="true">Plano de conjunto</button>
+          <button role="tab" data-d="1">Catastral</button>
+          <button role="tab" data-d="2">Polígono</button>
+          <button role="tab" data-d="3">Satelital</button>
+        </div>
+        <div class="doc-frame" id="doc-frame" role="button" tabindex="0" aria-label="Ampliar documento"><img id="doc-img" src="img/plano-arquitectonico.jpg" alt="Plano arquitectónico de conjunto"></div>
+        <div class="doc-cap"><span id="doc-cap">Planta general con casa, escaleras, jardín y alberca</span><span>Toque para ampliar</span></div>
+      </div>
+    </div>
+  </section>
+
+  <section id="ubicacion" class="light" style="padding-top:0">
+    <div class="wrap loc">
+      <div>
+        <div class="sec-head" style="margin-bottom:28px">
+          <span class="eyebrow">Ubicación</span>
+          <h2>Colonia Miraval.</h2>
+          <p>Zona consolidada, con alta plusvalía y acceso rápido a vialidades principales.</p>
+        </div>
+        <ul class="dist">
+          <li><span>Centro de Cuernavaca</span><b>5 min</b></li>
+          <li><span>Plazas comerciales y bancos</span><b>Cerca</b></li>
+          <li><span>Universidades y escuelas</span><b>Cerca</b></li>
+          <li><span>Vialidades principales</span><b>Directo</b></li>
+        </ul>
+        <p style="margin-top:28px"><a class="btn btn-ghost" href="https://www.google.com/maps/search/?api=1&query=Colonia+Miraval+Cuernavaca+Morelos" target="_blank" rel="noopener">Ver la zona en Google Maps</a></p>
+      </div>
+      <div class="sat rv"><img src="img/satelite.jpg" alt="Vista satelital con el contorno del predio marcado" loading="lazy"><span class="pin">Contorno del predio</span></div>
+    </div>
+  </section>
+
+  <section id="contacto" class="contact">
+    <div class="contact-bg"><img src="img/acceso.jpg" alt="" loading="lazy"></div>
+    <div class="wrap contact-grid">
+      <div>
+        <span class="eyebrow">Oportunidad por tiempo limitado</span>
+        <h2 style="margin-top:18px">Conózcalo <em>antes</em> de que se venda.</h2>
+        <p class="lede">Le enviamos precio, planos y fotos adicionales por WhatsApp y coordinamos la visita en el horario que prefiera.</p>
+        <div class="phones">
+          <div class="phone"><div><span class="lbl">WhatsApp</span><span class="num" id="wa-num">+52 777 556 0211</span></div><button class="copy" type="button" data-copy="wa-num">Copiar</button></div>
+          <div class="phone"><div><span class="lbl">Teléfono</span><span class="num" id="tel-num">+52 777 517 1042</span></div><button class="copy" type="button" data-copy="tel-num">Copiar</button></div>
+        </div>
+      </div>
+      <form id="lead" novalidate class="rv">
+        <h3>Solicitar información</h3>
+        <p class="sub">Respuesta el mismo día.</p>
+        <label for="f-name">Nombre<input id="f-name" name="name" autocomplete="name" placeholder="Su nombre"></label>
+        <label for="f-use">Me interesa para
+          <select id="f-use" name="use">
+            <option>Inversión o desarrollo</option>
+            <option>Hotel boutique</option>
+            <option>Vivienda propia</option>
+            <option>Clínica o bienestar</option>
+            <option>Escuela u oficinas</option>
+            <option>Jardín de eventos</option>
+            <option>Otro</option>
+          </select>
+        </label>
+        <label for="f-when">¿Cuándo le gustaría visitarlo?
+          <select id="f-when" name="when">
+            <option>Esta semana</option>
+            <option>La próxima semana</option>
+            <option>Solo quiero el precio por ahora</option>
+          </select>
+        </label>
+        <a class="btn btn-primary" id="f-send" href="https://wa.me/527775560211" target="_blank" rel="noopener">Enviar por WhatsApp</a>
+        <p class="form-note">Se abre WhatsApp con su mensaje ya escrito. Usted decide si lo envía.</p>
+      </form>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="wrap">
+    <span>Predio en Col. Miraval · Cuernavaca, Morelos</span>
+    <span>Información sujeta a verificación. Fotografías reales del inmueble.</span>
+  </div>
+</footer>
+
+<a class="btn btn-primary float-wa wa-link" href="https://wa.me/527775560211" target="_blank" rel="noopener">Pedir precio por WhatsApp</a>
+
+<div class="lb" id="lb" hidden role="dialog" aria-modal="true" aria-label="Imagen ampliada">
+  <div class="lb-stage"><img id="lb-img" src="" alt=""></div>
+  <div class="lb-bar">
+    <p id="lb-cap"></p>
+    <div class="lb-btns"><button type="button" id="lb-prev" aria-label="Anterior">←</button><button type="button" id="lb-next" aria-label="Siguiente">→</button><button type="button" id="lb-close">Cerrar</button></div>
+  </div>
+</div>
+
+<script>
+(function(){
+  var WA = "527775560211";
+  function waUrl(t){ return "https://wa.me/" + WA + "?text=" + encodeURIComponent(t); }
+  var base = "Hola, me interesa el predio en Col. Miraval, Cuernavaca (1,280 m², 6 niveles, alberca). ¿Me comparte el precio y los planos?";
+  document.querySelectorAll(".wa-link").forEach(function(a){ a.href = waUrl(base); });
+
+  // Nav background on scroll
+  var nav = document.getElementById("nav");
+  function onScroll(){ nav.classList.toggle("scrolled", window.scrollY > 40); }
+  addEventListener("scroll", onScroll, {passive:true}); onScroll();
+
+  // Levels explorer
+  var levels = [
+    {t:"Acceso por calle", d:"Frente de 10 m con entrada peatonal y vehicular. Desde aquí arranca el andador lateral que conecta todos los niveles.", img:"img/acceso.jpg", pos:"center 60%"},
+    {t:"Casa principal", d:"Planta baja y alta con terrazas voladas y barandales hacia el jardín. Es el corazón de los 800 m² construidos.", img:"img/ficus-escalera.jpg", pos:"left center"},
+    {t:"Terrazas", d:"Plataformas abiertas con vista directa hacia la alberca y la copa de los árboles.", img:"img/alberca-aerea.jpg", pos:"center"},
+    {t:"Jardín del ficus", d:"Un ficus monumental de varias décadas, con raíces expuestas y sombra permanente. La pieza más fotogénica del predio.", img:"img/ficus-escalera.jpg", pos:"center 70%"},
+    {t:"Bar de alberca", d:"Pabellón de techo curvo con barra de madera y muro de piedra volcánica, típico de la arquitectura de los años sesenta.", img:"img/alberca.jpg", pos:"70% 55%"},
+    {t:"Alberca y jardín", d:"La parte más baja y reservada del predio: alberca de forma libre rodeada de palmeras, con asoleadero y jardín.", img:"img/alberca.jpg", pos:"center 75%"}
+  ];
+  var lvImg = document.getElementById("lv-img"), lvN = document.getElementById("lv-n"), lvT = document.getElementById("lv-t"), lvD = document.getElementById("lv-d");
+  var lvls = document.querySelectorAll(".section-svg .lvl"), tabs = document.querySelectorAll(".level-tabs button");
+  var cur = -1;
+  function setLevel(i){
+    if(i === cur) return; cur = i;
+    var L = levels[i];
+    lvls.forEach(function(g){ g.classList.toggle("active", +g.dataset.i === i); });
+    tabs.forEach(function(b){ b.setAttribute("aria-selected", +b.dataset.i === i ? "true" : "false"); });
+    lvImg.classList.add("fading");
+    setTimeout(function(){
+      lvImg.src = L.img; lvImg.style.objectPosition = L.pos; lvImg.alt = L.t;
+      lvN.textContent = "NIVEL " + (i+1) + " DE 6"; lvT.textContent = L.t; lvD.textContent = L.d;
+      lvImg.classList.remove("fading");
+    }, cur === -1 ? 0 : 220);
+  }
+  lvls.forEach(function(g){
+    g.addEventListener("click", function(){ setLevel(+g.dataset.i); });
+    g.addEventListener("keydown", function(e){ if(e.key === "Enter" || e.key === " "){ e.preventDefault(); setLevel(+g.dataset.i); } });
+  });
+  tabs.forEach(function(b){ b.addEventListener("click", function(){ setLevel(+b.dataset.i); }); });
+  setLevel(5);
+
+  // Lightbox
+  var shots = [
+    {src:"img/alberca.jpg", cap:"Alberca y bar de techo curvo"},
+    {src:"img/acceso.jpg", cap:"Andador lateral y escalinata"},
+    {src:"img/ficus-escalera.jpg", cap:"Ficus monumental junto a la casa"},
+    {src:"img/alberca-aerea.jpg", cap:"La alberca vista desde las terrazas"},
+    {src:"img/plano-arquitectonico.jpg", cap:"Plano arquitectónico de conjunto"},
+    {src:"img/catastro.jpg", cap:"Plano catastral de la manzana"},
+    {src:"img/medicion.jpg", cap:"Polígono medido: 13,871 ft² ≈ 1,289 m²"},
+    {src:"img/satelite.jpg", cap:"Vista satelital con el contorno del predio"}
+  ];
+  var lb = document.getElementById("lb"), lbImg = document.getElementById("lb-img"), lbCap = document.getElementById("lb-cap"), li = 0, lastFocus = null;
+  function show(i){ li = (i + shots.length) % shots.length; lbImg.src = shots[li].src; lbImg.alt = shots[li].cap; lbCap.textContent = shots[li].cap + "  ·  " + (li+1) + " / " + shots.length; }
+  function open(i){ lastFocus = document.activeElement; show(i); lb.hidden = false; document.body.style.overflow = "hidden"; document.getElementById("lb-close").focus(); }
+  function close(){ lb.hidden = true; document.body.style.overflow = ""; if(lastFocus) lastFocus.focus(); }
+  document.querySelectorAll("[data-lb]").forEach(function(b){ b.addEventListener("click", function(){ open(+b.dataset.lb); }); });
+  document.getElementById("lb-prev").onclick = function(){ show(li-1); };
+  document.getElementById("lb-next").onclick = function(){ show(li+1); };
+  document.getElementById("lb-close").onclick = close;
+  lb.addEventListener("click", function(e){ if(e.target === lb || e.target.classList.contains("lb-stage")) close(); });
+  addEventListener("keydown", function(e){
+    if(lb.hidden) return;
+    if(e.key === "Escape") close(); else if(e.key === "ArrowRight") show(li+1); else if(e.key === "ArrowLeft") show(li-1);
+  });
+  var tx = null;
+  lb.addEventListener("touchstart", function(e){ tx = e.touches[0].clientX; }, {passive:true});
+  lb.addEventListener("touchend", function(e){ if(tx === null) return; var dx = e.changedTouches[0].clientX - tx; if(Math.abs(dx) > 50) show(li + (dx < 0 ? 1 : -1)); tx = null; });
+
+  // Documents tabs
+  var docs = [
+    {i:4, cap:"Planta general con casa, escaleras, jardín y alberca", cover:false},
+    {i:5, cap:"Plano catastral de la manzana con el predio señalado", cover:false},
+    {i:6, cap:"Polígono medido sobre mapa: 13,871 ft² ≈ 1,289 m²", cover:true},
+    {i:7, cap:"Vista satelital con el contorno aproximado", cover:true}
+  ];
+  var dFrame = document.getElementById("doc-frame"), dImg = document.getElementById("doc-img"), dCap = document.getElementById("doc-cap"), dCur = 0;
+  document.querySelectorAll(".doc-tabs button").forEach(function(b){
+    b.addEventListener("click", function(){
+      dCur = +b.dataset.d; var D = docs[dCur];
+      document.querySelectorAll(".doc-tabs button").forEach(function(x){ x.setAttribute("aria-selected", x === b ? "true" : "false"); });
+      dImg.src = shots[D.i].src; dImg.alt = shots[D.i].cap; dCap.textContent = D.cap; dFrame.classList.toggle("cover", D.cover);
+    });
+  });
+  dFrame.addEventListener("click", function(){ open(docs[dCur].i); });
+  dFrame.addEventListener("keydown", function(e){ if(e.key === "Enter" || e.key === " "){ e.preventDefault(); open(docs[dCur].i); } });
+
+  // Lead form -> WhatsApp
+  var name = document.getElementById("f-name"), use = document.getElementById("f-use"), when = document.getElementById("f-when"), send = document.getElementById("f-send");
+  function update(){
+    var n = name.value.trim();
+    var msg = "Hola, " + (n ? "soy " + n + ". " : "") +
+      "Me interesa el predio en Col. Miraval, Cuernavaca (1,280 m², 6 niveles, alberca) para: " + use.value + ". " +
+      (when.value.indexOf("precio") > -1 ? "Por ahora me gustaría conocer el precio." : "Me gustaría visitarlo " + when.value.toLowerCase() + ".") +
+      " ¿Me comparte precio y planos?";
+    send.href = waUrl(msg);
+  }
+  [name, use, when].forEach(function(el){ el.addEventListener("input", update); el.addEventListener("change", update); });
+  document.getElementById("lead").addEventListener("submit", function(e){ e.preventDefault(); });
+  update();
+
+  // Copy buttons
+  document.querySelectorAll(".copy").forEach(function(btn){
+    btn.addEventListener("click", function(){
+      var el = document.getElementById(btn.dataset.copy), text = el.textContent.replace(/\s/g, "");
+      function done(){ btn.textContent = "Copiado"; setTimeout(function(){ btn.textContent = "Copiar"; }, 1600); }
+      function fallback(){ var r = document.createRange(); r.selectNodeContents(el); var s = getSelection(); s.removeAllRanges(); s.addRange(r); }
+      try { navigator.clipboard.writeText(text).then(done, fallback); } catch(e){ fallback(); }
+    });
+  });
+})();
+</script>
+
+</body>
+</html>
